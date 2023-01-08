@@ -12,6 +12,7 @@
 
 /* ========== Body ========== */
 body {
+  font-family: "Roboto", sans-serif;
 }
 /* ========== Body ========== */
 
@@ -31,9 +32,11 @@ body {
 .logo-decor {
   color: #4d5ae5;
 }
+.logo-decor-2 {
+  color: #f4f4fd;
+}
 
 .menu-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -49,7 +52,6 @@ body {
 }
 
 .address-link {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -57,26 +59,12 @@ body {
   color: #434455;
 }
 
-.modal-btn {
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-}
-
+/* ================ hero ================== */
 .hero {
   background: #2e2f42;
 }
 
 .hero-title {
-  font-family: "Roboto";
   font-weight: 700;
   font-size: 56px;
   line-height: 1.7;
@@ -85,8 +73,25 @@ body {
   color: #ffffff;
 }
 
+.modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+/* ================ /hero ================== */
+
+/* ================ features ================== */
 .features-title {
-  font-family: "Roboto";
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -95,10 +100,115 @@ body {
 }
 
 .features-description {
-  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+
+/* ================ /features ================== */
+
+/* ========= section 3 - work examples ======== */
+.projects-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+/* ========= /section 3 - work examples ======== */
+
+/* ========= section 4 - team ======== */
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.team-list-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.team-item {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+/* ========= /section 4 - team ======== */
+
+/* ================= footer ================= */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
+/* ================= /footer ================= */
+
+/* =========== Portfolio ========= */
+
+.filter-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  color: #ffffff;
+  background-color: #404bbf;
+  border-color: transparent;
+}
+
+/* =========== /Portfolio ========= */
