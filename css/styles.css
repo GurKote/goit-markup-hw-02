@@ -1,5 +1,10 @@
 :root {
   --primary-brand-color: #4d5ae5;
+  --secondary-page-color: #2e2f42;
+  --white-background-color: #ffffff;
+  --text-color: #434455;
+  --logo-color: #f4f4fd;
+  --footer-text-color: #e7e9fc;
 }
 
 .list {
@@ -13,35 +18,36 @@
 /* ========== Body ========== */
 body {
   font-family: "Roboto", sans-serif;
+  background-color: var(--white-background-color);
+  font-size: 16px;
+  color: var(--secondary-page-color);
 }
 /* ========== Body ========== */
 
+/* ========== Header ========== */
 .page-logo {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--secondary-page-color);
 }
 
 .logo-decor {
-  color: #4d5ae5;
+  color: var(--primary-brand-color);
 }
 .logo-decor-2 {
-  color: #f4f4fd;
+  color: var(--logo-color);
 }
 
 .menu-link {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--secondary-page-color);
 }
 
 .menu-link:hover,
@@ -52,25 +58,27 @@ body {
 }
 
 .address-link {
-  font-weight: 400;
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
+
+/* ========== Header ========== */
 
 /* ================ hero ================== */
 .hero {
-  background: #2e2f42;
+  background-color: var(--secondary-page-color);
 }
 
 .hero-title {
-  font-weight: 700;
+  font-style: normal;
   font-size: 56px;
   line-height: 1.7;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white-background-color);
 }
 
 .modal-btn {
@@ -91,67 +99,35 @@ body {
 /* ================ /hero ================== */
 
 /* ================ features ================== */
-.features-title {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.features-description {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-/* ================ /features ================== */
-
-/* ========= section 3 - work examples ======== */
-.projects-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
-
-/* ========= /section 3 - work examples ======== */
-
-/* ========= section 4 - team ======== */
-
-.team {
-  background-color: #f4f4fd;
-}
-
-.team-title {
-  font-weight: 700;
+.section-title {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--secondary-page-color);
 }
 
-.team-list-title {
+.suptitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--secondary-page-color);
 }
 
-.team-list-text {
-  font-weight: 400;
-  font-size: 16px;
+.text-description {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
+}
+
+/* ================ /features ================== */
+
+/* ========= section 4 - team ======== */
+
+.team {
+  background-color: #f4f4fd;
 }
 
 .team-item {
@@ -166,16 +142,13 @@ body {
 /* ================= footer ================= */
 
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--secondary-page-color);
 }
 
 .footer-text {
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--footer-text-color);
 }
 
 /* ================= /footer ================= */
@@ -191,8 +164,9 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--primary-brand-color);
+  background-color: var(--logo-color) #f4f4fd;
+  cursor: pointer;
 }
 
 .filter-btn:hover,
@@ -205,7 +179,6 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.04em;
-
   color: #ffffff;
   background-color: #404bbf;
   border-color: transparent;
