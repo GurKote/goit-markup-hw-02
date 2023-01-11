@@ -120,7 +120,7 @@ body {
   color: var(--secondary-page-color);
 }
 
-.text-description {
+.section-description {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
