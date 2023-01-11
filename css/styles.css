@@ -15,6 +15,14 @@
   text-decoration: none;
 }
 
+.hidden {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
 /* ========== Body ========== */
 body {
   font-family: "Roboto", sans-serif;
@@ -26,8 +34,6 @@ body {
 
 /* ========== Header ========== */
 .page-logo {
-  font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
@@ -59,7 +65,6 @@ body {
 
 .address-link {
   font-style: normal;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
@@ -73,7 +78,6 @@ body {
 }
 
 .hero-title {
-  font-style: normal;
   font-size: 56px;
   line-height: 1.7;
   text-align: center;
@@ -108,7 +112,7 @@ body {
   color: var(--secondary-page-color);
 }
 
-.suptitle {
+.section-suptitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
